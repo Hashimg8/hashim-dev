@@ -173,6 +173,22 @@ body{
     padding-top: 30px;
     /* height: 100%; */
 }
+/* Back to top button */
+#btn{
+    padding: 6px 10px;
+    background: #0d48a13d;
+    border: none;
+    border-radius: 8px;
+    position: fixed;
+    right: 20px;
+    bottom: 5px;
+    display: none;
+    z-index: 9999;
+}
+.btn-top{
+    width: 20px;
+    fill: #0759dd;
+}
 h2{
     font-size: var(--h2);
     font-weight: 600;
@@ -470,6 +486,6 @@ textarea{
     .hero-section{
         height: auto;
         flex-direction: column;
-        f
+        
     }
 }
